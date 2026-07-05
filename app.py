@@ -223,36 +223,78 @@ You deserve all the happiness in the world today and always. ❤️
 </div>
 """, unsafe_allow_html=True)
 
-    st.markdown("---")
+    # ---------------- BIRTHDAY SONG ---------------- #
 
-    st.markdown("## 🎵 Birthday Song")
-
-    st.video("https://www.youtube.com/watch?v=90w2RegGf9w")
-
-    st.markdown("---")
-
-    st.markdown("""
-# 💝 Birthday Wishes
-
-🎂 Enjoy Every Moment ❤️
-
-⭐ Keep Shining ✨
-
-🌸 Stay Happy 😊
-
-💖 Stay Blessed 🌷
-
-🚀 Keep Achieving Your Dreams 💫
-
-🌈 Smile Always ❤️
-""")
-
-    st.success("🎉 Surprise Completed!")
+st.markdown("<hr>", unsafe_allow_html=True)
 
 st.markdown("""
-<div class="footer">
+   <h2 style="text-align:center;color:#e91e63;font-size:36px;">
+   🎵 Birthday Song
+   </h2>
+   """, unsafe_allow_html=True)
 
-Made with ❤️ especially for Akshata
+st.video("https://www.youtube.com/watch?v=90w2RegGf9w")
 
-</div>
-""", unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
+
+# ---------------- BIRTHDAY WISHES ---------------- #
+
+st.markdown("""
+   <div style="
+   background:white;
+   padding:35px;
+   border-radius:20px;
+   box-shadow:0 10px 25px rgba(0,0,0,.15);
+   ">
+
+   <h2 style="
+   text-align:center;
+   color:#e91e63;
+   font-size:38px;
+   margin-bottom:25px;
+   ">
+
+   💝 Birthday Wishes
+
+   </h2>
+
+   <div style="
+   color:#333333;
+   font-size:22px;
+   line-height:2;
+   ">
+
+   🎂 <b>Enjoy Every Moment</b> ❤️<br><br>
+
+   ⭐ <b>Keep Shining</b> ✨<br><br>
+
+   🌸 <b>Stay Happy</b> 😊<br><br>
+
+   💖 <b>Stay Blessed</b> 🌷<br><br>
+
+   🚀 <b>Keep Achieving Your Dreams</b> 💫<br><br>
+
+   🌈 <b>Smile Always</b> ❤️
+
+   </div>
+
+   </div>
+   """, unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+   <div style="
+   background:#d1fae5;
+   padding:18px;
+   border-radius:15px;
+   text-align:center;
+   font-size:22px;
+   font-weight:bold;
+   color:#065f46;
+   ">
+
+   🎉 Surprise Completed! 🎊
+
+   </div>
+   """, unsafe_allow_html=True)
