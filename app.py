@@ -223,78 +223,97 @@ You deserve all the happiness in the world today and always. ❤️
 </div>
 """, unsafe_allow_html=True)
 
-    # ---------------- BIRTHDAY SONG ---------------- #
+        # ---------------- BIRTHDAY SONG ---------------- #
 
-st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("<hr>", unsafe_allow_html=True)
 
-st.markdown("""
-   <h2 style="text-align:center;color:#e91e63;font-size:36px;">
-   🎵 Birthday Song
-   </h2>
-   """, unsafe_allow_html=True)
+    st.markdown("""
+    <h2 style="text-align:center;color:#e91e63;font-size:36px;font-weight:bold;">
+    🎵 Birthday Song
+    </h2>
+    """, unsafe_allow_html=True)
 
-st.video("https://www.youtube.com/watch?v=90w2RegGf9w")
+    st.video("https://www.youtube.com/watch?v=90w2RegGf9w")
 
-st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
 
-# ---------------- BIRTHDAY WISHES ---------------- #
+    # ---------------- BIRTHDAY WISHES ---------------- #
 
-st.markdown("""
-   <div style="
-   background:white;
-   padding:35px;
-   border-radius:20px;
-   box-shadow:0 10px 25px rgba(0,0,0,.15);
-   ">
+    st.markdown("""
+    <div style="
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    color:#333;
+    ">
 
-   <h2 style="
-   text-align:center;
-   color:#e91e63;
-   font-size:38px;
-   margin-bottom:25px;
-   ">
+    <h2 style="
+    text-align:center;
+    color:#e91e63;
+    font-size:42px;
+    font-weight:bold;
+    margin-bottom:25px;
+    ">
+    💝 Birthday Wishes
+    </h2>
 
-   💝 Birthday Wishes
+    <div style="
+    font-size:24px;
+    line-height:2.3;
+    color:#333333;
+    ">
 
-   </h2>
+    🎂 Enjoy Every Moment ❤️<br><br>
 
-   <div style="
-   color:#333333;
-   font-size:22px;
-   line-height:2;
-   ">
+    ⭐ Keep Shining ✨<br><br>
 
-   🎂 <b>Enjoy Every Moment</b> ❤️<br><br>
+    🌸 Stay Happy 😊<br><br>
 
-   ⭐ <b>Keep Shining</b> ✨<br><br>
+    💖 Stay Blessed 🌷<br><br>
 
-   🌸 <b>Stay Happy</b> 😊<br><br>
+    🚀 Keep Achieving Your Dreams 💫<br><br>
 
-   💖 <b>Stay Blessed</b> 🌷<br><br>
+    🌈 Smile Always ❤️
 
-   🚀 <b>Keep Achieving Your Dreams</b> 💫<br><br>
+    </div>
 
-   🌈 <b>Smile Always</b> ❤️
+    </div>
+    """, unsafe_allow_html=True)
 
-   </div>
+    st.markdown("<br>", unsafe_allow_html=True)
 
-   </div>
-   """, unsafe_allow_html=True)
+    # ---------------- SUCCESS ---------------- #
 
-st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="
+    background:#d1fae5;
+    padding:18px;
+    border-radius:15px;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    color:#065f46;
+    ">
+    🎉 Surprise Completed! 🎊
+    </div>
+    """, unsafe_allow_html=True)
 
-st.markdown("""
-   <div style="
-   background:#d1fae5;
-   padding:18px;
-   border-radius:15px;
-   text-align:center;
-   font-size:22px;
-   font-weight:bold;
-   color:#065f46;
-   ">
+    st.markdown("<br><br>", unsafe_allow_html=True)
 
-   🎉 Surprise Completed! 🎊
+    # ---------------- FOOTER ---------------- #
 
-   </div>
-   """, unsafe_allow_html=True)
+    st.markdown("""
+    <div style="
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    color:#555;
+    padding-bottom:50px;
+    ">
+
+    Made with ❤️ especially for
+    <span style="color:#e91e63;">Akshata</span>
+
+    </div>
+    """, unsafe_allow_html=True)
